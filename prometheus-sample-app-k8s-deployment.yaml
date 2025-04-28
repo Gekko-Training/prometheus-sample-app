@@ -19,7 +19,7 @@ spec:
         - name: prometheus-sample-app
           image: gelu078/prometheus-sample-app:v1.0.0
          # image: prometheus-sample-app:latest
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           command:
             - "/bin/main"
           args:
