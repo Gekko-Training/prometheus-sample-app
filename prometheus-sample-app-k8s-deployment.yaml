@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: prometheus-sample-app
-          image: 786911222539.dkr.ecr.us-east-2.amazonaws.com/prometheus_sample_app:latest
+          image: gelu078/prometheus-sample-app:v1.0.0
          # image: prometheus-sample-app:latest
           imagePullPolicy: Never
           command:

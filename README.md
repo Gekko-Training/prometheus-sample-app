@@ -19,7 +19,7 @@ $ ./prometheus-sample-app -listen_address=0.0.0.0:4567 -metric_count=100
 Steps for running in docker:
 
 ```bash
-$ docker build . -t prometheus-sample-app
+$ docker build . -t gelu078/prometheus-sample-app:v1.0.0
 $ docker run -it -p 8080:8080 prometheus-sample-app /bin/main -listen_address=0.0.0.0:8080
 $ curl localhost:8080/metrics
 ```
